@@ -38,7 +38,7 @@ pythoncredit_card_pattern = r'\d{4}[\s-]?\d{4}[\s-]?\d{4}[\s-]?\d{4}'
 Matches: 1234 5678 9012 3456, 1234-5678-9012-3456
 Explanation: Captures 16-digit numbers with optional spaces or hyphens
 
-The Time Formats
+The Time Format
 pythontime_pattern = r'(?:(?:0?[1-9]|1[0-2]):[0-5][0-9]\s*(?:AM|PM|am|pm)|(?:(?:[01]?[0-9]|2[0-3]):[0-5][0-9]))'
 
 Matches: 14:30 (24-hour format), 2:30 PM (12-hour format)
